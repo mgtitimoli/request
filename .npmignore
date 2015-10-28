@@ -6,7 +6,6 @@ lib
 
 disabled.appveyor.yml
 examples
-node_modules
 release.sh
 tests
 
