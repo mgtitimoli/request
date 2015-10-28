@@ -2,7 +2,7 @@
 
 var http = require('http')
   , assert = require('assert')
-  , request = require('../index')
+  , request = require('../dist')
   , tape = require('tape')
 
 var server = http.createServer(function(req, resp) {

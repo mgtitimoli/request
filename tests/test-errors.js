@@ -1,6 +1,6 @@
 'use strict'
 
-var request = require('../index')
+var request = require('../dist')
   , tape = require('tape')
 
 var local = 'http://localhost:8888/asdf'

@@ -1,7 +1,7 @@
 'use strict'
 
 var path = require('path')
-var request = require('..')
+var request = require('../dist')
 var tape = require('tape')
 var fixture = require('./fixtures/har.json')
 var server = require('./server')

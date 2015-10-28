@@ -1,12 +1,12 @@
 'use strict'
 
-if (process.env.running_under_istanbul) {
-  // test-agent.js modifies the process state
-  // causing these tests to fail when running under single process via tape
-  return
-}
+// if (process.env.running_under_istanbul) {
+//   // test-agent.js modifies the process state
+//   // causing these tests to fail when running under single process via tape
+//   return
+// }
 
-var request = require('../index')
+var request = require('../dist')
   , http    = require('http')
   , server  = require('./server')
   , tape    = require('tape')

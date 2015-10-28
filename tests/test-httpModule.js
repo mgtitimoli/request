@@ -3,7 +3,7 @@
 var http = require('http')
   , https = require('https')
   , server = require('./server')
-  , request = require('../index')
+  , request = require('../dist')
   , tape = require('tape')
 
 var faux_requests_made

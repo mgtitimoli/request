@@ -1,6 +1,16 @@
+# Temporary directories
 coverage
-tests
-node_modules
-examples
-release.sh
+
+# ES6 files (we are only uploading dist directory: ES5 files)
+lib
+
 disabled.appveyor.yml
+examples
+node_modules
+release.sh
+tests
+
+# Configuration files
+.babelrc
+.eslintrc
+.gitignore

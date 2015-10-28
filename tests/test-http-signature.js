@@ -1,7 +1,7 @@
 'use strict'
 
 var http = require('http')
-  , request = require('../index')
+  , request = require('../dist')
   , httpSignature = require('http-signature')
   , tape = require('tape')
 

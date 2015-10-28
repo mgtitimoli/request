@@ -2,7 +2,7 @@
 
 var assert = require('assert')
   , http = require('http')
-  , request = require('../index')
+  , request = require('../dist')
   , tape = require('tape')
 
 var numBearerRequests = 0

@@ -3,7 +3,7 @@
 var http = require('http')
   , path = require('path')
   , mime = require('mime-types')
-  , request = require('../index')
+  , request = require('../dist')
   , fs = require('fs')
   , tape = require('tape')
 

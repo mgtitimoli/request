@@ -2,7 +2,7 @@
 
 var server = require('./server')
   , tape = require('tape')
-  , request = require('../index')
+  , request = require('../dist')
   , https = require('https')
   , net = require('net')
   , fs = require('fs')

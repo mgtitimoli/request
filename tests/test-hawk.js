@@ -1,7 +1,7 @@
 'use strict'
 
 var http = require('http')
-  , request = require('../index')
+  , request = require('../dist')
   , hawk = require('hawk')
   , tape = require('tape')
   , assert = require('assert')

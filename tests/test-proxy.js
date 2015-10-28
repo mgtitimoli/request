@@ -1,7 +1,7 @@
 'use strict'
 
 var server = require('./server')
-  , request = require('../index')
+  , request = require('../dist')
   , tape = require('tape')
 
 var s = server.createServer()

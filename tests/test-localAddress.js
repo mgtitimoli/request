@@ -1,5 +1,5 @@
 'use strict'
-var request = require('../index')
+var request = require('../dist')
   , tape = require('tape')
 
 tape('bind to invalid address', function (t) {

@@ -11,7 +11,7 @@ if (process.env.TRAVIS === 'true') {
   /*eslint no-process-exit:0*/
 } else {
   var server = require('./server')
-    , request = require('../index')
+    , request = require('../dist')
     , tape = require('tape')
 
   var s = server.createServer()

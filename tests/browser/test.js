@@ -10,7 +10,7 @@ if (!Function.prototype.bind) {
 
 
 var tape = require('tape')
-  , request = require('../../index')
+  , request = require('../../dist')
 
 tape('returns on error', function(t) {
   t.plan(1)

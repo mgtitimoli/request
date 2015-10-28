@@ -1,6 +1,6 @@
 'use strict'
 
-var request = require('../index')
+var request = require('../dist')
   , server = require('./server')
   , tape = require('tape')
 

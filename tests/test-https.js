@@ -4,7 +4,7 @@
 // otherwise exactly the same as the ssl test
 
 var server = require('./server')
-  , request = require('../index')
+  , request = require('../dist')
   , fs = require('fs')
   , path = require('path')
   , tape = require('tape')

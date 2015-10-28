@@ -1,7 +1,7 @@
 'use strict'
 
 var server = require('./server')
-  , request = require('../index')
+  , request = require('../dist')
   , events = require('events')
   , tape = require('tape')
 

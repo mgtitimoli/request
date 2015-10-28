@@ -1,6 +1,6 @@
 'use strict'
 
-var request = require('../index')
+var request = require('../dist')
   , http = require('http')
   , fs = require('fs')
   , rimraf = require('rimraf')

@@ -3,7 +3,7 @@
 var server = require('./server')
   , stream = require('stream')
   , fs = require('fs')
-  , request = require('../index')
+  , request = require('../dist')
   , path = require('path')
   , util = require('util')
   , tape = require('tape')

@@ -1,7 +1,7 @@
 'use strict'
 
 var http = require('http')
-  , request = require('../index')
+  , request = require('../dist')
   , tape = require('tape')
   , crypto = require('crypto')
 

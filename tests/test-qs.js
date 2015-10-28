@@ -1,6 +1,6 @@
 'use strict'
 
-var request = require('../index')
+var request = require('../dist')
   , tape = require('tape')
 
 // Run a querystring test.  `options` can have the following keys:

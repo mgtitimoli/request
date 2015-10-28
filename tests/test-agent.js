@@ -1,7 +1,7 @@
 'use strict'
 
-var request = require('../index')
-  , version = require('../lib/helpers').version
+var request = require('../dist')
+  , version = require('../dist/helpers').version
   , http = require('http')
   , ForeverAgent = require('forever-agent')
   , tape = require('tape')

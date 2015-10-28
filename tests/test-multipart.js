@@ -2,7 +2,7 @@
 
 var http = require('http')
   , path = require('path')
-  , request = require('../index')
+  , request = require('../dist')
   , fs = require('fs')
   , tape = require('tape')
 
